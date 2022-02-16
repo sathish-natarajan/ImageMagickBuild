@@ -24,7 +24,7 @@ CONFIGURE = PKG_CONFIG_PATH=$(CACHE_DIR)/lib/pkgconfig \
 ## GHOSTSCRIPT (https://www.ghostscript.com/)
 ## https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs927/ghostscript-9.27.tar.gz
 ## -------------------------------------------------------------------------------------------------------
-GHOSTSCRIPT_VERSION=9.27
+GHOSTSCRIPT_VERSION=9.55
 GHOSTSCRIPT_VERSION_DIR=gs$(subst .,,$(GHOSTSCRIPT_VERSION))
 GHOSTSCRIPT_SRC_FILE=ghostscript-${GHOSTSCRIPT_VERSION}.tar.gz
 GHOSTSCRIPT_SRC_DIR=$(subst .tar.gz,,$(GHOSTSCRIPT_SRC_FILE))
